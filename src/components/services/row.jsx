@@ -13,7 +13,7 @@ const TextSection = ({ title, content }) => {
 
 const ImageSection = ({ image }) => {
   return (
-    <img src={image} alt="row image" className="w-full h-full rounded-md" />
+    <img src={image} alt="row image" className="w-full h-full rounded-md object-cover" />
   );
 };
 

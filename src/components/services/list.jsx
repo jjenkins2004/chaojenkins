@@ -7,7 +7,7 @@ import business from "../../assets/business.png"
 
 const List = () => {
   return (
-    <div className="flex flex-col gap-[10vh] mt-[10vw] mb-10">
+    <div className="flex flex-col gap-[10vh] mt-[10vw] mb-10 text-[var(--color-primary)] max-w-[1500px] px-8">
       <Row
         title="Data Strategy & Consulting"
         content="Our Data Strategy & Consulting services help businesses unlock the full potential of their data. We provide expert guidance on data collection, organization, and analysis to drive smarter decision-making, improve efficiency, and uncover new growth opportunities. Whether you're building a data-driven culture or optimizing existing processes, we tailor strategies to fit your unique business needs."
