@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "postbuild": "cp dist/index.html dist/404.html",
     "deploy": "npm run build && gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -33,5 +34,6 @@
     "postcss": "^8.5.3",
     "tailwindcss": "^4.0.14",
     "vite": "^6.2.0"
-  }
+  },
+  "homepage": "https://chaojenkins.com/"
 }
