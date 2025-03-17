@@ -1,16 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
+
 @import "tailwindcss";
+
+@theme {
+  --breakpoint-med: 37rem;
+}
 
 @layer base {
   :root {
     --color-primary: #0A0D19; 
     --color-secondary: #1f39a1;
     --color-background: #ebebeb; 
+    --color-clipirl-background: #9badc5;
   }
   html, body {
     overscroll-behavior: none;
   }
 }
 
+@layer components {
+  .font-courierprime {
+    font-family: "Courier Prime", monospace;
+  }
+}
 
 
 #root {

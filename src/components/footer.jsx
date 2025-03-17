@@ -22,12 +22,12 @@ const Footer = () => {
           <div className="w-1/2 flex flex-col items-start md:items-center justify-between py-2 md:py-12 text-sm md:text-base gap-2 md:gap-4">
             <div className="flex items-center space-x-2 text-blue-500">
               <MapPin size={24} />
-              <span>123 Main St, City, Country</span>
+              <span>TBD</span>
             </div>
-            <div className="flex items-center space-x-2 text-gray-700">
+            {/* <div className="flex items-center space-x-2 text-gray-700">
               <Phone size={24} />
               <span>(123) 456-7890</span>
-            </div>
+            </div> */}
 
             <div className="flex space-x-4 text-2xl text-gray-600">
               <Link to="/">
