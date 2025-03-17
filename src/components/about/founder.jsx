@@ -6,7 +6,7 @@ const FounderImageLeft = ({ image }) => {
       <div className="absolute bottom-0 left-0 w-[85%] h-[75%] bg-[var(--color-secondary)] rounded-lg">
         <div className=" w-full absolute flex flex-col bottom-0 h-1/3 items-center justify-center">
           <p className="text-lg md:text-[clamp(2px,2vw,22px)] font-bold">Skye Chao</p>
-          <p className="text-sm md:text-[clamp(2px,2vw,22px) font-light]">AI & Business</p>
+          <p className="text-sm md:text-[clamp(2px,2vw,22px) font-light]">Data Analytics & Consulting</p>
         </div>
       </div>
       <div className="absolute top-0 right-0 w-[85%] h-[75%] bg-amber-900 rounded-lg shadow-lg">
@@ -22,7 +22,7 @@ const FounderImageRight = ({ image }) => {
         <div className=" w-full absolute flex flex-col bottom-0 h-1/3 items-center justify-center">
           <p className="text-lg md:text-[clamp(2px,2vw,22px)] font-bold">Joshua Jenkins</p>
           <p className="text-sm md:text-[clamp(2px,2vw,22px) font-light]">
-            Software & Consulting
+            Software & Cloud
           </p>
         </div>
       </div>
