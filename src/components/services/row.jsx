@@ -22,19 +22,19 @@ const Row = ({ title, content, image, imageFirst }) => {
     <div className="shadow-lg py-5">
       {imageFirst ? (
         <div className="w-full px-2.5 flex ">
-          <div className="w-2/5">
+          <div className="hidden md:block w-2/5">
             <ImageSection image={image} />
           </div>
-          <div className="w-3/5 text-right pl-6">
+          <div className="md:w-3/5 text-center md:text-right md:pl-6">
             <TextSection title={title} content={content} />
           </div>
         </div>
       ) : (
-        <div className="w-full px-2.5 flex">
-          <div className="w-3/5 pr-6">
+        <div className="w-full px-2.5 flex flex-col md:flex-row">
+          <div className="text-center md:text-left md:w-3/5 md:pr-6">
             <TextSection title={title} content={content} />
           </div>
-          <div className="w-2/5">
+          <div className="hidden md:block md:w-2/5">
             <ImageSection image={image} />
           </div>
         </div>

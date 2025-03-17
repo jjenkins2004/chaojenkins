@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="w-full">
-      <section className="flex flex-col items-center justify-center h-screen text-center bg-[radial-gradient(circle_at_top,_#83a6f7_0%,_var(--color-background)_90%)]">
+      <section className="flex flex-col items-center justify-center h-[125vh] md:h-screen text-center bg-[radial-gradient(circle_at_top,_#83a6f7_0%,_var(--color-background)_90%)]">
         <h1 className="text-5xl font-bold text-gray-900">
           <span className="text-[var(--color-secondary)] font-extrabold">
             DATA
